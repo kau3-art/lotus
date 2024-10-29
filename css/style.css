@@ -1,0 +1,235 @@
+body{
+    font-family: "Protest Strike", sans-serif;
+    font-style: normal;
+    background-color: pink;
+    margin: 0;
+    padding: 0x;
+    padding-bottom: 90px;
+
+
+}
+.logo{
+    position: relative;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+.direita{
+   float: right; 
+   position: relative;
+}
+nav ul li{
+    /* width: 600px; */
+    padding-right: 25px;
+    margin: 14px 0 0 75px;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+
+    float:left ;
+    position: relative;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+nav ul li a:hover {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(255, 187, 238);
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+nav ul li a:active {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(255, 123, 222);
+    height: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+header{
+    background-color: pink
+    /* padding-bottom: 90px; */
+    
+    height: 90px;
+}
+main{
+    background-color: pink
+    width: 90%;
+    margin: 0 auto;
+    padding: 90px;
+    height: auto;
+    padding-left: 100px;
+}
+.divisor{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(255, 184, 220);
+
+}
+img{
+    display: block;
+    /* padding-bottom: 90px; */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding: 20px;
+    
+    
+}
+
+
+.product{
+
+    width: 300px;
+    max-width: 100%;
+    margin: 30px;
+    padding: 10px;
+    padding-right: 30px;
+    
+    
+   
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; */
+    
+
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+
+}
+.product h3 {
+    font-size: 40px;
+    color: deeppink;
+    padding-bottom: 30px;
+    
+    
+
+}
+.product p {
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+}
+.product .price {
+    font-size: 22px;
+    color: hotpink;
+    padding: 10px;
+}
+.here{
+    width: 100%;
+    padding-left: 40px;
+    text-align: center;
+    /* display: flex; */
+    position: relative;
+    float: left; 
+}
+.img{
+    position: relative;
+    float: left;
+    
+}
+.text{
+    width: 65%;
+    padding: 0 20px;
+    position: relative;
+    float: left;
+    font-size: 30px;
+
+}
+h3{
+    padding-left: 50px;
+    color: hotpink;
+    
+    font-size: 30px;
+}
+h4{
+    color: hotpink;
+}
+h5{
+    color: hotpink;
+    font-size: 30px;
+}
+h6{
+    color: #fff;
+    font-size: 30px
+}
+span{
+    font-size: 30px;
+}
+/*Formulario*/
+.form-container {
+    background: linear-gradient(90deg, pink
+     0%, pink
+100%);
+    padding: 20px;
+    padding-right: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-group button:hover {
+    background-color: pink; 
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+footer{
+    background-color: aliceblue;
+    height: 20px;
+    text-align: center 
+    
+
+
+    
+}
